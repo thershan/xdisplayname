@@ -1,4 +1,3 @@
-// src/NameForm.js
 import React, { useState } from 'react';
 import './NameForm.css';
 
@@ -20,6 +19,7 @@ const NameForm = () => {
 
   return (
     <div className="name-form">
+      <h1>Full Name Display</h1>
       <form onSubmit={handleSubmit}>
         <label>
           First Name:
@@ -27,6 +27,7 @@ const NameForm = () => {
             type="text" 
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
+            required
           />
         </label>
         <br />
@@ -36,6 +37,7 @@ const NameForm = () => {
             type="text" 
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
+            required
           />
         </label>
         <br />
