@@ -1,0 +1,26 @@
+/* src/NameForm.css */
+.name-form {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
